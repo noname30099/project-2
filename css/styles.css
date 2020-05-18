@@ -1,0 +1,572 @@
+body {
+  font-family: Roboto;
+  font-weight: 700;
+  background-color: #fafafa;
+  color: #0000e6;
+  width: 100%;
+  display:block;
+  text-align: center;
+  min-width: 317px;
+}
+
+nav {
+  margin-bottom: 7%;
+}
+
+a {
+  text-decoration: none;
+  color: #0000e6;
+}
+
+a:hover {
+  color: green;
+}
+
+.contactinfo {
+  margin-top: 1.7%;
+  margin-bottom: 1.7%;
+}
+
+.portfolio-content {
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+
+
+.portfolio-section {
+    background-color: #def8ff;
+    padding-bottom: 1%;
+    height: max-content;
+    display: block;
+}
+
+.content {
+  display: inline-block;
+  padding-bottom: 3%;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 300;
+  color: #0000e6;
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+
+.profile-image {
+  width: auto;
+  height: 140px;
+}
+
+.profile-section p {
+  font-size: 18.5px;
+}
+
+.profile-section {
+  font-size: 18.5px;
+  margin-bottom: 6%;
+}
+
+.portfolio-section h2 {
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+
+.portfolio-section p {
+  margin-bottom: 6%;
+}
+
+.pportfolio {
+  max-width: 300px;
+  width: 95%;
+  text-align: center;
+  font-size: 17px;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: block;
+}
+
+h3 {
+  font-weight: 400;
+  margin-top: 6%;
+  margin-bottom: 0.3%;
+  font-size: 20px;
+}
+
+.contact {
+  margin-top: 8%;
+  display: block;
+}
+
+.heading-left {
+  float: left;
+  margin-left: 0px;
+  display: inline-block;
+  margin-top:0;
+  padding-top:0;
+  width: 40%;
+  text-align: left;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.nav-list li {
+  background-color: #f8e6ff;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.portfolio-image {
+  height: 171px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfoliowidth {
+  max-width: 609px;
+  margin: 0 auto;
+}
+
+.heading-right2 {
+  visibility: hidden;
+  display: none;
+  margin-right: 0px;
+  float: right;
+  text-align: right;
+}
+
+hr {
+  margin-bottom: 5%;
+  margin-right: 2%;
+}
+
+.heading-right {
+  padding-right: 0px;
+  width: 40%;
+  visibility: visible;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top:0;
+  padding-top:0;
+  margin-right: 2%;
+}
+
+nav .heading-right {
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 40%;
+  visibility: visible;
+  display: inline-block;
+  float: right;
+  text-transform: uppercase;
+  margin-top:0;
+  padding-top:0;
+  margin-right: 2%;
+}
+
+
+      @media only screen and (min-width: 768px)  {
+
+        h1 {
+          font-size: 27.5px;
+          margin-bottom: 3.5%;
+        }
+
+        hr {
+          margin-right: 0px;
+        }
+
+        .portfoliowidth {
+          /* max-width: none; */
+          max-width: 870px;
+        }
+
+        .profile-section {
+          width: 94.5%;
+          display: block;
+          margin-bottom: 10%;
+          margin-left: 0px;
+          display: block;
+          overflow: hidden;
+
+        }
+
+        .portfolio-section {
+          overflow: hidden;
+          padding-bottom: 2%;
+        }
+
+        .portfolio-section h2 {
+          padding-top: 5%;
+          padding-bottom: 4%;
+        }
+
+        .profile-section p {
+          width: 52%;
+          float: left;
+          font-size: 1.3em;
+          text-align: left;
+          margin-top: 0px;
+          margin-left: 3.6%;
+        }
+
+        .profile-image {
+          width: auto;
+          float: right;
+          height: 178px;
+        }
+
+        .portfolio-image {
+          height: 205px;
+          width: auto;
+        }
+
+        .pportfolio {
+          width: 81%;
+          max-width: 81%;
+          text-align: center;
+          font-size: 16px;
+        }
+
+        nav {
+          margin-top: 2%;
+          overflow: hidden;
+            text-align: center;
+          display: inline-block;
+          width: 100%;
+          text-transform: uppercase;
+        }
+
+        .nav-list {
+          list-style-type: none;
+          display: block;
+          margin-bottom: 2%;
+          margin-bottom: 10%;
+          font-family: Roboto;
+          font-weight: 500;
+          text-align: center;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        .nav-list li {
+          background-color: #fafafa;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          width: auto;
+          margin-left:3%;
+          margin-right:3%;
+          text-align: center;
+          display: inline-block;
+        }
+
+
+        .nav-list2 {
+          list-style-type: none;
+          display: inline-block;
+          font-family: Roboto;
+          font-weight: 500;
+          text-align: center;
+          width: 100%;
+          overflow: hidden;
+          padding-left: 0px;
+          float: right;
+        }
+
+        .nav-list2 li {
+          float: right;
+          background-color: #fafafa;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          width: auto;
+          margin-left:3%;
+          margin-right:0%;
+          padding-right: 0px;
+          text-align: center;
+          display: inline-block;
+        }
+
+        ul {
+          margin-top: 0;
+          margin-bottom: 0;
+            padding-bottom: 0;
+              padding-bottom: 0;
+        }
+
+        .navfloat {
+          display: inline-block;
+        }
+
+        .heading-bottom {
+          width:  95%;
+          height: auto;
+          display: block;
+          margin-top: 8%;
+          padding-bottom: 10%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .heading-left {
+          display: inline;
+          float: left;
+          width: 40%;
+          margin-left: 0;
+          text-align: left;
+        }
+
+        nav .heading-right2 {
+          display: inline;
+          float: right;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-top: 0;
+          margin-bottom: 0;
+          padding-right: 0;
+          margin-right: 0;
+
+        }
+
+        nav {
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-top: 0;
+          margin-bottom: 0;
+          display: inline-block;
+          width: 54%;
+          padding-right: 5%;
+        }
+
+        .heading-right {
+          visibility: hidden;
+          display: none;
+        }
+
+        li {
+          padding-right: 1%;
+        }
+
+        .content {
+          width: 50%;
+          float: left;
+          height: auto;
+          text-align: center;
+          background-color: inherit;
+        }
+
+        .contact {
+          height: auto;
+        }
+
+        .contact h2 {
+          display: block;
+        }
+
+        .contact p {
+          font-size: 21px;
+        }
+
+        .contactinfo {
+          margin-top: 1.4%;
+          margin-bottom: 1.4%;
+        }
+
+        .heading-right2 {
+          padding-right: 0px;
+          width: 60%;
+          visibility: visible;
+          display: inline-block;
+        }
+
+        nav .heading-right2 {
+          padding-right: 0px;
+          margin-right: 0px;
+          width: 60%;
+          visibility: visible;
+          display: inline-block;
+        }
+
+      }
+
+            @media only screen and (min-width: 1024px)  {
+
+              main {
+                width: 95%;
+                max-width: 1063px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+              }
+
+              h3 {
+                padding-bottom: 4%;
+              }
+
+              .portfoliowidth {
+                /* max-width: none; */
+                max-width: 1060px;
+              }
+
+              .profile-section {
+                margin-top: 4%;
+                margin-bottom: 8%;
+                margin-left: 0px;
+              }
+
+              .portfolio-section {
+                width: 99.8%;
+                height: auto;
+                margin-bottom: 0%;
+                padding-bottom: 1%;
+                max-width: 1063px;
+                display: block;
+                overflow: hidden;
+              }
+
+              .profile-image {
+                height: 249px;
+                width: auto;
+                float: right;
+              }
+
+              .profile-section p {
+                width: 52%;
+                font-size: 1.2em;
+                text-align: left;
+                margin-top: 0px;
+                  margin-left: 0px;
+              }
+
+              .portfolio-image {
+                height: 167px;
+              }
+
+              li {
+                padding: 0px;
+                margin: 0px;
+              }
+
+              .nav-list li {
+                margin-left:7%;
+                margin-right:1%;
+              }
+
+              .content {
+                width: 33.3%;
+                height: auto;
+                text-align: center;
+              }
+
+              .pportfolio {
+                font-size: 16px;
+                font-weight: 100;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+              }
+
+              .contact {
+                margin-top: 4%;
+                height: auto;
+              }
+
+              .contact h2 {
+                display: block;
+                padding-top: 1%;
+              }
+
+              .heading-right2 {
+                padding-right: 0px;
+                width: 60%;
+              }
+
+              .nav-list2 {
+                padding-left: 0px;
+                margin-right: 0px;
+                display: block;
+                float: right;
+              }
+
+              nav .heading-right2 {
+                padding-right: 0px;
+                margin-right: 0px;
+                width: 60%;
+              }
+
+              .heading-top {
+                width: 100%;
+                padding-top: 30px;
+                display: block;
+                overflow: hidden;
+              }
+
+              .heading-top nav {
+                float: right;
+              }
+
+              h1 {
+                  margin-top: 0px;
+                  margin-bottom: 0px;
+                  padding-left: 0px;
+              }
+
+              .profile-section p {
+                width: 55%;
+                padding-left: 0px;
+                display: inline-block;
+                text-align: left;
+                float: left;
+              }
+
+              .heading-top h1 {
+                float: left;
+              }
+
+              .nav-list {
+                margin-bottom: 0px;
+                float: right;
+                text-align: right;
+                padding-top: 0.88%;
+              }
+
+              .heading-bottom {
+                display: block;
+                width:  95%;
+                height: auto;
+                margin-top: 5%;
+                padding-bottom: 5%;
+              }
+
+              .contactinfo {
+                margin-top: 0.6%;
+                margin-bottom: 0.6%;
+              }
+
+
+            }
