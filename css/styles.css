@@ -7,6 +7,7 @@ body {
   display:block;
   text-align: center;
   min-width: 317px;
+  margin: 0;
 }
 
 nav {
@@ -108,6 +109,7 @@ h3 {
   float: left;
   margin-left: 0px;
   display: inline-block;
+  margin-left:2%;
   margin-top:0;
   padding-top:0;
   width: 40%;
@@ -158,6 +160,7 @@ h3 {
 hr {
   margin-bottom: 5%;
   margin-right: 2%;
+  margin-left: 2%;
 }
 
 .heading-right {
@@ -196,6 +199,7 @@ nav .heading-right {
 
         hr {
           margin-right: 0px;
+          margin-left: 0%;
         }
 
         .portfoliowidth {
